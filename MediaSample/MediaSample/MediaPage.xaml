@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediaSample.MediaPage"
+			 Title="Intelligent Faces"
+			 BackgroundColor="White"
+			 >
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Spacing="10" Padding="10">
+			<Image Source="chip.jpg" HeightRequest="100"/>
+			<Image Source="thumbnail.jpg" x:Name="imgChoosed"/>
+			<Button x:Name="BtnPick" Text="Buscar Foto" Clicked="BtnPick_Clicked"></Button>
+			<Button x:Name="BtnTake" Text="Tomar Foto" Clicked="BtnTake_Clicked" ></Button>
+			<Label Text="Resultado" TextColor="Black" x:Name="lblResult"></Label>
+			<Image x:Name="emocionLoad"/>
+			</StackLayout>
+		</ScrollView>
+		</ContentPage.Content>
+</ContentPage>
