@@ -2909,6 +2909,9 @@ namespace MediaSample.Droid
 			// aapt resource value: 0x7F010010
 			public const int miedo = 2130771984;
 			
+			// aapt resource value: 0x7F010011
+			public const int mieg = 2130771985;
+			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -3008,11 +3011,14 @@ namespace MediaSample.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010011
-			public const int side = 2130771985;
-			
 			// aapt resource value: 0x7F010012
-			public const int thumbnail = 2130771986;
+			public const int side = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int sorp = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int thumbnail = 2130771988;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3020,8 +3026,8 @@ namespace MediaSample.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010013
-			public const int triste = 2130771987;
+			// aapt resource value: 0x7F010015
+			public const int triste = 2130771989;
 			
 			static Drawable()
 			{

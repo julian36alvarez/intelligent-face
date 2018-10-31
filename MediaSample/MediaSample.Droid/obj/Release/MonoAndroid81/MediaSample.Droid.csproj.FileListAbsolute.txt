@@ -95,6 +95,8 @@ C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAnd
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\android\assets\System.Xml.pdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\res\drawable\sorp.png
+C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\res\drawable\mieg.jpg
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\bin\Release\MediaSample.Droid.dll
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\linksrc\MediaSample.Droid.dll.mdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Release\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb

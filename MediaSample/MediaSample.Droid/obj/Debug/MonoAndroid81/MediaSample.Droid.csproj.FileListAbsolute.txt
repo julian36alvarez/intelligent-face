@@ -102,7 +102,10 @@ C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndro
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\res\drawable\giphy.gif
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\res\drawable\feliz.jpg
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\res\drawable\asco.png
+C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\res\drawable\sorp.png
+C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\res\drawable\mieg.jpg
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\bin\Debug\MediaSample.Droid.dll
+C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\linksrc\MediaSample.pdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\linksrc\MediaSample.Droid.dll.mdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\xamarin\MediaPlugin\samples\MediaSample\MediaSample.Droid\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

@@ -46,9 +46,16 @@ namespace MediaSample
 					var stream = file.GetStream();
 					return stream;
 				});
-				var faceList = await GetImageDescription(file.GetStream());
+				Esperar.IsVisible = true;
+				Esperar.IsRunning = true;
+
 
 				lblResult.Text = null;
+				var faceList = await Task.Run(async () => await GetImageDescription(file.GetStream()));
+				Esperar.IsVisible = false;
+				Esperar.IsRunning = false;
+
+
 				file.Dispose();
 				Title = "Detecting...";
 				Title = String.Format(
@@ -121,14 +128,18 @@ namespace MediaSample
 					var stream = file.GetStream();
 					return stream;
 				});
-				var faceList = await GetImageDescription(file.GetStream());
-				
+				Esperar.IsVisible = true;
+                Esperar.IsRunning = true;
+
+
 				lblResult.Text = null;
+				var faceList = await Task.Run(async() => await GetImageDescription(file.GetStream()));
+                Esperar.IsVisible = false;
+				Esperar.IsRunning = false;
+				
+				
 				file.Dispose();
-				//foreach (var tag in result)
-				//{
-				//lblResult.Text = lblResult.Text + "\n" + tag;
-				//}
+				
 				Title = "Detecting...";
 				Title = String.Format(
 					"Detection Finished. {0} face(s) detected", faceList.Count);
@@ -240,7 +251,7 @@ namespace MediaSample
 			}
 			else if (emotionScores.Fear >= 0.5f)
 			{
-				emocionLoad.Source = Device.RuntimePlatform == Device.Android ? ImageSource.FromFile("miedo.jpg") : ImageSource.FromFile("Images/miedo.jpg");
+				emocionLoad.Source = Device.RuntimePlatform == Device.Android ? ImageSource.FromFile("mieg.jpg") : ImageSource.FromFile("Images/mieg.jpg");
 			}
 			else if (emotionScores.Happiness >= 0.5f)
 			{
@@ -256,7 +267,7 @@ namespace MediaSample
 			}
 			else if (emotionScores.Surprise >= 0.5f)
 			{
-				emocionLoad.Source = Device.RuntimePlatform == Device.Android ? ImageSource.FromFile("giphy.gif") : ImageSource.FromFile("Images/giphy.gif");
+				emocionLoad.Source = Device.RuntimePlatform == Device.Android ? ImageSource.FromFile("sorp.png") : ImageSource.FromFile("Images/sorp.png");
 			}
 			else {
 				emocionLoad.Source = Device.RuntimePlatform == Device.Android ? ImageSource.FromFile("giphy.gif") : ImageSource.FromFile("Images/giphy.gif");

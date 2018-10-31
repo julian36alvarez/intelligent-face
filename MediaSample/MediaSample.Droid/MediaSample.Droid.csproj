@@ -88,6 +88,8 @@
     <AndroidResource Include="Resources\drawable\giphy.gif" />
     <AndroidResource Include="Resources\drawable\feliz.jpg" />
     <AndroidResource Include="Resources\drawable\asco.png" />
+    <AndroidResource Include="Resources\drawable\sorp.png" />
+    <AndroidResource Include="Resources\drawable\mieg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MediaSample\MediaSample.csproj">
