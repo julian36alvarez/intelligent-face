@@ -46,9 +46,27 @@ namespace MediaSample
 					var stream = file.GetStream();
 					return stream;
 				});
-				var faceList = await GetImageDescription(file.GetStream());
 
-				lblResult.Text = null;
+                /* // Mostrar el indicador 
+           
+            // Ejecutar la tarea de larga duración  
+            // Simular una tarea que dilata 5 segundos 
+            await Task.Run(() =>
+            System.Threading.Thread.Sleep(5000));
+            // La operación terminó 
+            Esperar.IsVisible = false;      
+            Esperar.IsRunning = false;*/
+
+                Esperar.IsVisible = true;
+                Esperar.IsRunning = true;
+ 
+           
+
+                var faceList = await Task.Run(async() => await GetImageDescription(file.GetStream()));
+                Esperar.IsVisible = false;
+                Esperar.IsRunning = false;
+
+                lblResult.Text = null;
 				file.Dispose();
 				Title = "Detecting...";
 				Title = String.Format(
@@ -64,6 +82,7 @@ namespace MediaSample
 						
 					
 				}
+
 			}
 			catch (Exception ex)
 			{

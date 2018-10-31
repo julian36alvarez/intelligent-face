@@ -8,13 +8,20 @@
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout Spacing="10" Padding="10">
+                
 			<Image Source="chip.jpg" HeightRequest="100"/>
-			<Image Source="thumbnail.jpg" x:Name="imgChoosed"/>
+                <Label Text="Resultado" TextColor="Black" x:Name="lblResult"></Label>
+                <Image x:Name="emocionLoad"/>
+               
 			<Button x:Name="BtnPick" Text="Buscar Foto" Clicked="BtnPick_Clicked"></Button>
 			<Button x:Name="BtnTake" Text="Tomar Foto" Clicked="BtnTake_Clicked" ></Button>
-			<Label Text="Resultado" TextColor="Black" x:Name="lblResult"></Label>
-			<Image x:Name="emocionLoad"/>
-			</StackLayout>
+                <Image Source="thumbnail.jpg" x:Name="imgChoosed"/>
+                <ActivityIndicator x:Name="Esperar"
+                           Color="Red"
+                           IsVisible="False"
+                           IsRunning="False"/>
+                <BoxView HeightRequest="1" BackgroundColor="Black" />
+            </StackLayout>
 		</ScrollView>
 		</ContentPage.Content>
 </ContentPage>
